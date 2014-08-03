@@ -1,0 +1,50 @@
+{
+  "projects" : [
+    {
+      "id" : "",
+      "title" : "",
+      "description" : "",
+      "image_name" : "LaserDistortion.jpg",
+    },
+    {
+      "id" : "",
+      "title" : "",
+      "description" : "",
+      "image_name" : "deep_learning_for_sequential_data.png",
+    },
+    {
+      "id" : "",
+      "title" : "",
+      "description" : "",
+      "image_name" : "LaserDistortion2.png",
+    },
+    {
+      "id" : "",
+      "title" : "",
+      "description" : "",
+      "image_name" : "molecular_simulations.png",
+    },
+    {
+      "id" : "",
+      "title" : "",
+      "description" : "",
+      "image_name" : "toy_hacking_placeholder.jpg",
+    },
+     {
+      "id" : "",
+      "title" : "",
+      "description" : "",
+      "image_name" : "data_driven_sensors_for_hydroponics_applications.jpg",
+    },
+    {
+      "id" : "",
+      "title" : "",
+      "description" : "",
+      "image_name" : "water_carbon_dioxide_sensor.png",
+    },
+  ]
+}
+
+
+
+
