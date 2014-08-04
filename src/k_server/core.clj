@@ -11,7 +11,7 @@
 
 
 (def sections ["projects", "publications", "cv", "contact"])
-(def data (json/read-str (slurp "src/data.json") :key-fn keyword))
+(def data (json/read-str (slurp (clojure.java.io/resource "data.json")) :key-fn keyword))
 
 
 
