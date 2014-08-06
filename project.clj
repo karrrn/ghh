@@ -10,4 +10,5 @@
   :plugins [[lein-ring "0.8.11"]]
   :ring {:handler k-server.core/handler
          :resource-path ["resources"]
-         :auto-reload? true})
+         :auto-reload? true
+         :auto-refresh? true})

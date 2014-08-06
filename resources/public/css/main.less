@@ -2,22 +2,32 @@
   padding-top: 70px;
 }
 #intro {
-  margin-top: 50px;
+  margin-top: 30px;
 }
 .section{
   .section-inner{
     height: 100%;
     min-height: 700px;
     margin-top: 60px;
-    background-color: #c2c6be;
-    opacity: 0.6;
+    background-color: #f3f1e7;
   }
 }
 body {
   position: relative;
+  background-color: #FFFFF6;
+  font-family: 'Fenix', serif;
+  font-size: 16px;
 }
 .navbar-brand{
   padding: 5px 0 0 0;
+}
+.nav {
+  li {
+    a {
+      font-family: 'economica';
+      font-size: 24px;
+    }
+  }
 }
 
 #logo-image{
@@ -31,6 +41,38 @@ body {
 }
 
 .project-thumb {
-  height: 150px;
+  position: relative;
   float: left;
+  img {
+  height: 150px;
+  }
+  .title {
+    display: none;
+    font-size: 24px;
+    top: 40px;
+    left: 20px;
+    position: absolute;
+  }
+  &:hover {
+    img {
+    filter: grayscale(100%) blur(1px);
+    -webkit-filter: grayscale(100%) blur(1px);
+    -moz-filter: grayscale(100%) blur(1px);
+    -ms-filter: grayscale(100%) blur(1px);
+    -o-filter: grayscale(100%) blur(1px);
+    }
+    .title {
+      display: block;
+      z-index: 1;
+    }
+  }
 }
+
+h1, h2, h3, h4 {
+  font-family: 'economica';
+}
+
+@font-face {
+        font-family: 'economica';
+        src: url('/fonts/Economica_Std.ttf');
+    }

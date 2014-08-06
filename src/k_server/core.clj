@@ -11,9 +11,35 @@
 
 
 (def sections ["projects", "publications", "cv", "contact"])
-(def data (json/read-str (slurp (clojure.java.io/resource "data.json")) :key-fn keyword))
+(def data (json/read-str
+           (slurp (clojure.java.io/resource "data.json")) :key-fn keyword))
 
+(defn render-for [el-list html-vec] render-for
+  (apply str
+         (map #(-> (html-vec %) hiccup/html)
+                el-list)
+              )
+  )
 
+(defn project-thumbs [projects-list]
+  (render-for projects-list
+              (fn [project]
+                [:div {:class "project-thumb" :display "none"}
+                  [:h4 {:class "title"} (:title project)]
+                  [:a
+                   {:href (str "projects/"(:id project))}
+                   [:img
+                    {:src (str "img/projects/" (:image_name project))
+                     :class "img-responsive"}]
+                   ]
+                ])))
+
+(defn get-nav [sections]
+  (render-for sections
+              (fn [section]
+                [:li [:a
+                      {:href (str "#" section)}
+                      section]])))
 
 (html/deftemplate base-template "templates/index.html"
   []
@@ -21,14 +47,8 @@
   [:#projects] (html/clone-for [section sections]
                            [:h1] (html/content section)
                            [:.section](html/set-attr :id section))
-  [:#projects :.content] (html/html-content
-                          (apply str
-                           (map #(hiccup/html
-                                  [:img
-                                   {:src (str "img/projects/" (:image_name %))
-                                    :class "project-thumb img-responsive"}])
-                                (:projects data))
-                           )))
+  [:#projects :.content] (html/html-content (project-thumbs (:projects data)))
+  [:ul.navbar-nav] (html/html-content (get-nav sections)))
 
 
 
