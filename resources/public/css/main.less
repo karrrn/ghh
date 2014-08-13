@@ -1,23 +1,14 @@
-#main{
-  padding-top: 70px;
+//fonts & variables
+h1, h2, h3, h4 {
+  font-family: 'economica';
 }
-#intro {
-  margin-top: 30px;
-}
-.section{
-  .section-inner{
-    height: 100%;
-    min-height: 700px;
-    margin-top: 60px;
-    background-color: #f3f1e7;
-  }
-}
-body {
-  position: relative;
-  background-color: #FFFFF6;
-  font-family: 'Fenix', serif;
-  font-size: 16px;
-}
+
+@font-face {
+        font-family: 'economica';
+        src: url('/fonts/Economica_Std.ttf');
+    }
+
+// nav bar
 .navbar-brand{
   padding: 5px 0 0 0;
 }
@@ -34,11 +25,33 @@ body {
     height: 120px;
 }
 
-.contact {
-  width: 200px;
-  float: left;
-  margin-right: 30px;
+//layout
+
+#main{
+  padding-top: 70px;
 }
+#intro {
+  margin-top: 30px;
+  p {
+    width: 500px;
+    margin: 5px;
+    font-size: 20px;
+  }
+}
+.section{
+  .section-inner{
+    height: 100%;
+    margin-top: 60px;
+    background-color: white;//#f3f1e7
+  }
+}
+body {
+  position: relative;
+  background-color: #FFFFF6;
+  font-family: 'Fenix', serif;
+  font-size: 16px;
+}
+
 
 .project-thumb {
   position: relative;
@@ -68,11 +81,8 @@ body {
   }
 }
 
-h1, h2, h3, h4 {
-  font-family: 'economica';
+.contact {
+  width: 200px;
+  float: left;
+  margin-right: 30px;
 }
-
-@font-face {
-        font-family: 'economica';
-        src: url('/fonts/Economica_Std.ttf');
-    }

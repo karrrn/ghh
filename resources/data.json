@@ -1,48 +1,59 @@
 {
-  "projects" : [
+  "projects" : {
+    "lumiere":
     {
-      "id" : "project1",
-      "title" : "project1",
-      "description" : "",
+      "title" : "lumiere",
+      "markdown" : "projects/project1/text.md",
       "image_name" : "LaserDistortion.jpg",
     },
+    "project2":
     {
-      "id" : "project2",
       "title" : "project2",
-      "description" : "",
+      "markdown" : "",
       "image_name" : "deep_learning_for_sequential_data.png",
     },
+    "project3":
     {
-      "id" : "project3",
       "title" : "project3",
-      "description" : "",
+      "markdown" : "",
       "image_name" : "LaserDistortion2.png",
     },
+    "project4":
     {
-      "id" : "project4",
       "title" : "project4",
-      "description" : "",
+      "markdown" : "",
       "image_name" : "molecular_simulations.png",
     },
+    "project5":
     {
-      "id" : "project5",
       "title" : "project5",
-      "description" : "",
+      "markdown" : "",
       "image_name" : "toy_hacking_placeholder.jpg",
     },
+    "project6":
      {
-      "id" : "project6",
       "title" : "project6",
-      "description" : "",
+      "markdown" : "",
       "image_name" : "data_driven_sensors_for_hydroponics_applications.jpg",
     },
+    "project7":
     {
-      "id" : "project7",
       "title" : "project7",
-      "description" : "",
+      "markdown" : "",
       "image_name" : "water_carbon_dioxide_sensor.png",
     },
-  ]
+  },
+    "contact" : {
+      "name" : "Karen Ullrich",
+      "address" : {
+        "name": "OFAI",
+        "street": "Freyung 6/6",
+        "postal": "A-1010 ",
+        "city" : "Vienna, Austria"
+        }
+    "phone" : "+43 680 2321 469"
+    "emails" : ["karn.ullrich@gmail.com", "karen.ullrich@ofai.at"]
+    }
 }
 
 
