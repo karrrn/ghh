@@ -55,8 +55,8 @@
         "street": "Freyung 6/6",
         "postal": "A-1010 ",
         "city" : "Vienna, Austria"
-        },
-    "phone" : "+43 680 2321 469",
+        }
+    "phone" : "+43 680 2321 469"
     "emails" : ["karn.ullrich@gmail.com", "karen.ullrich@ofai.at"]
     }
 }
