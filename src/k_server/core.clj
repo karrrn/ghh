@@ -42,10 +42,6 @@
                    ]
                 ])))
 
-(project-thumbs (:projects data))
-
-(map (fn [[k v]] (pr v)) (:projects data))
-
 (defn get-nav [sections]
   (apply str
   (map (fn [section]
