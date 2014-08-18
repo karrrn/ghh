@@ -15,6 +15,9 @@
 (def data (json/read-str
            (slurp (clojure.java.io/resource "data.json")) :key-fn keyword))
 
+(let [x (range 10)]
+  (map + (take 10 x) (range 2 10)))
+
 (defn get-md [path]
   (md/md-to-html-string
    (slurp
@@ -78,6 +81,7 @@
                            [:.section](html/set-attr :id section))
   [:#projects :.content] (html/html-content (project-thumbs (:projects data)))
   [:#publications :.content] (html/html-content (get-md "publications.md"))
+  [:#cv :.content] (html/html-content (get-md "CV.md"))
   [:#contact :.content] (html/html-content (get-contact (:contact data))))
 
 (html/deftemplate project-template "templates/index.html"
@@ -92,7 +96,7 @@
   :handle-ok (fn [_] (apply str (base-template))))
 
 (defresource project [req]
-  ;; main resource
+  ;; project resource
   :available-media-types ["text/html"]
   :handle-ok (fn [_] (apply str (project-template (get-in req [:route-params :id])))))
 

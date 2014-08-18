@@ -14,7 +14,7 @@ lets make a list
 cant belive is does work
 
 1. bla
-2. bl 
+2. bl
 3. bl
 
 and last a link to [wikipedia](http://en.wikipedia.org/wiki/Main_Page)
@@ -24,21 +24,24 @@ Plus a piece of code
 	sudo apt-get install grup-costomizer
 -->
 
-## Education and Training
+### Education and Training
 
-## Work Experience
+### Work Experience
 
-## Skills
+### Skills
 
-### Langruages
+#### Langruages
+
 German (Motherthounge), English (C2), Dutch (B2), French (A2)
-### Computer Science
+
+#### Computer Science
 
 Matlab,Mathematica, Python,R
 Pascal,C,C++,Fortran
 VTK,rapidminor,Open MPI,
 Java,
-### Math and Sciences
+
+#### Math and Sciences
 
 Analysis I-VI
 Algebra
@@ -50,10 +53,12 @@ Theoretical Physics I-VI
 
 Molecular Simulation,Stochastic Simulations, Machine Learning
 
-### Prototypying
+#### Prototypying
+
 Arduino Google sketchup 3d printing
 
-### Others
+#### Others
+
 Driving Licence B (since 2007)
 advanced certifieed first aid skills
 

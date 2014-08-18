@@ -1,6 +1,4 @@
-{ "about":{
-     "markdown" : "about.md"
-     },
+{
   "projects" : {
     "lumiere":
     {
@@ -44,9 +42,6 @@
       "markdown" : "",
       "image_name" : "water_carbon_dioxide_sensor.png",
     },
-    "publications":{
-     "markdown" : "publications.md"
-     },
   },
     "contact" : {
       "name" : "Karen Ullrich",
