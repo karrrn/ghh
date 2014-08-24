@@ -1,0 +1,16 @@
+## rootsystem
+
+Hydroponics is a way of growing plants that avoids soil and tailors the amount of nutrients a plant
+needs specifically to it. This a much more efficient way of farming, one which many DIY enthusiasts
+have embraced and is also finding its way into the
+urban farming movement. Not only does it save 90% of the water traditional farming uses, the crops produce much higher yields.
+
+The problem with hydroponics is the research and knowledge required to get started. There are quite a
+few variables involved that influence your results. This is a pity, since it can be the most hands off way of getting fresh fruit and vegetables. This stems from the fact the environment can be closely
+controlled and monitored.
+
+The rootsystem project  wants to make hydroponics culture acessable to a lager community and therefore we develop tools and kits for easy sucess.
+
+In the scope of this project I am developing a data driven sensor. The sensor consists of low cost components. Key to it is a complex machine learning based analyse of  gathered and labeled data. Unfortunatelly, we have to create a labeld data base our self which is very time consuming. 
+
+Project with Louis Smit, started in 2014
