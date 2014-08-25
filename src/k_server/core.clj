@@ -15,9 +15,6 @@
 (def data (json/read-str
            (slurp (clojure.java.io/resource "data.json")) :key-fn keyword))
 
-(let [x (range 10)]
-  (map + (take 10 x) (range 2 10)))
-
 (defn get-md [path]
   (md/md-to-html-string
    (slurp
