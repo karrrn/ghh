@@ -1,6 +1,18 @@
-## Lumi&egrave;re 
+## rootsystem
 
-[Lumi&egrave;re](http://roberthenke.com/concerts/lumiere.html) is an audio-laser performance by [Robert Henke](http://roberthenke.com/).
-Centre of the performance is a laser system emitting extremely bright and complex patterns in real-time to music. A key to his design is the precision of the laser beam. My contribution to this project are mathematical calculations regarding the non-linear movement of the laser beam considering various parameters. 
+Hydroponics is a way of growing plants that avoids soil and tailors the amount of nutrients a plant
+needs specifically to it. This a much more efficient way of farming, one which many DIY enthusiasts
+have embraced and is also finding its way into the
+urban farming movement. Not only does it save 90% of the water traditional farming uses, the crops produce much higher yields.
 
-Idea, artwork and engineering by [Robert Henke](http://roberthenke.com/).
+The problem with hydroponics is the research and knowledge required to get started. There are quite a
+few variables involved that influence your results. This is a pity, since it can be the most hands off way of getting fresh fruit and vegetables. This stems from the fact the environment can be closely
+controlled and monitored.
+
+The rootsystem project  wants to make hydroponics culture accessible to a lager community and therefore we develop tools and kits for easy success.
+
+In the scope of this project I am developing a data driven sensor. The sensor consists of low cost components. Key to it is a complex machine learning based analyse of  gathered and labeled data. Unfortunately, we have to create a labeled data base our self which is very time consuming. 
+
+Other devices will follow soon. Ideas and paricipation are welcome. See out git repository for more code and information. 
+
+Project with Louis Smit, started in 20142014
