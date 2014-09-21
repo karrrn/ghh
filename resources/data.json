@@ -1,58 +1,41 @@
-{ "about" : {
-    "markdown": "about.md"
-    },
-
+{
   "projects" : {
     "lumiere":
     {
       "title" : "lumiere",
       "markdown" : "projects/project1/text.md",
-      "image_name" : "LaserDistortion.jpg",
+      "cover_image" : "LaserDistortion.jpg",
+      "thumb_image" : "lumiere_thumb.jpg",
     },
-    "project2":
+    "haunted-farm":
     {
-      "title" : "project2",
-      "markdown" : "",
-      "image_name" : "deep_learning_for_sequential_data.png",
+      "title" : "Haunted Farm",
+      "markdown" : "projects/project2/text.md",
+      "cover_image" : "toy_hacking_placeholder.jpg",
+      "thumb_image" : "toy_hacking_placeholder.jpg",
     },
-    "project3":
+    "root-system":
     {
-      "title" : "project3",
-      "markdown" : "",
-      "image_name" : "LaserDistortion2.png",
+      "title" : "Root System",
+      "markdown" : "projects/project3/text.md",
+      "cover_image" : "data_driven_sensors_for_hydroponics_applications.jpg",
+      "thumb_image" : "data_driven_sensors_for_hydroponics_applications.jpg",
     },
-    "project4":
+    "dissolved-carbon-dioxide-sensor":
     {
-      "title" : "project4",
-      "markdown" : "",
-      "image_name" : "molecular_simulations.png",
+      "title" : "Dissolved Carbon Dioxide Sensor",
+      "markdown" : "projects/project4/txt.md",
+      "cover_image" : "molecular_simulations.png",
+      "thumb_image" : "molecular_simulations.png",
     },
-    "project5":
+    "deep-learning-in-music":
     {
-      "title" : "project5",
-      "markdown" : "",
-      "image_name" : "toy_hacking_placeholder.jpg",
-    },
-    "project6":
-     {
-      "title" : "project6",
-      "markdown" : "",
-      "image_name" : "data_driven_sensors_for_hydroponics_applications.jpg",
-    },
-    "project7":
-    {
-      "title" : "project7",
-      "markdown" : "",
-      "image_name" : "water_carbon_dioxide_sensor.png",
-    },
+      "title" : "Deep Learning in Music",
+      "markdown" : "projects/project5/text.md",
+      "cover_image" : "deep_learning_for_sequential_data.png",
+      "thumb_image" : "deep_learning_for_sequential_data.png",
+    }
   },
-  "publications" : {
-    "markdown": "publications.md"
-    },
-  "curriculum vitae" : {
-    "markdown": "CV."
-    },
-
     "contact" : {
       "name" : "Karen Ullrich",
       "address" : {
