@@ -61,6 +61,15 @@ module.exports = function(grunt) {
           base: ''
         }
       }
+    },
+    md2html: {
+      one_file: {
+        options: {},
+        files: [{
+          src: ['resources/markdown/CV.md'],
+          dest: 'src/CV.html'
+        }]
+      }
     }
   });
 
@@ -69,6 +78,7 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-less');
   grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.loadNpmTasks('grunt-contrib-connect');
+  grunt.loadNpmTasks('grunt-md2html');
   grunt.loadTasks('grunt-tasks');
 
   // Default task(s).

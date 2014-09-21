@@ -39,7 +39,7 @@
                   [:a
                    {:href (str "projects/" (name id))}
                    [:img
-                    {:src (str "/img/projects/" (:thumb_image project))
+                    {:src (str "/img/" (:thumb_image project))
                      :class "img-responsive"}]
                    ]
                 ])))
@@ -80,10 +80,11 @@
   []
   [:ul.navbar-nav] (html/html-content (get-nav sections))
   [:#projects] (html/clone-for [section sections]
-                           [:h1] (html/content section)
                            [:.section](html/set-attr :id section))
   [:#about :.content] (html/html-content (get-md "about.md"))
   [:#projects :.content] (html/html-content (project-thumbs (:projects data)))
+  [:#projects :.content] (html/prepend
+                          (html/html (hiccup/html [:h1 "PROJECTS"])))
   [:#publications :.content] (html/html-content (get-md "publications.md"))
   [:#cv :.content] (html/html-content (get-md "CV.md"))
   [:#contact] (html/html-content (get-contact (:contact data))))
@@ -94,7 +95,7 @@
   [:#main] (html/html-content
             (let [project (get-in data [:projects (keyword id)])]
                   (hiccup/html [:div {:class (str id " project")}
-                                [:img {:src (str "/img/projects/"(:cover_image project))
+                                [:img {:src (str "/img/"(:main_image project))
                                        :class "cover"}]
                                 [:div (get-md (:markdown project))]]))))
 

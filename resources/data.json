@@ -4,36 +4,36 @@
     {
       "title" : "lumiere",
       "markdown" : "projects/project1/text.md",
-      "cover_image" : "LaserDistortion.jpg",
-      "thumb_image" : "lumiere_thumb.jpg",
+      "main_image" : "projects/project1/main.png",
+      "thumb_image" : "projects/project1/cover.jpg",
     },
     "haunted-farm":
     {
       "title" : "Haunted Farm",
       "markdown" : "projects/project2/text.md",
-      "cover_image" : "toy_hacking_placeholder.jpg",
-      "thumb_image" : "toy_hacking_placeholder.jpg",
+      "main_image" : "projects/project2/main.png",
+      "thumb_image" : "projects/project2/cover.jpg",
     },
     "root-system":
     {
       "title" : "Root System",
       "markdown" : "projects/project3/text.md",
-      "cover_image" : "data_driven_sensors_for_hydroponics_applications.jpg",
-      "thumb_image" : "data_driven_sensors_for_hydroponics_applications.jpg",
+      "main_image" : "projects/project3/main.jpg",
+      "thumb_image" : "projects/project3/cover.jpg",
     },
     "dissolved-carbon-dioxide-sensor":
     {
       "title" : "Dissolved Carbon Dioxide Sensor",
       "markdown" : "projects/project4/txt.md",
-      "cover_image" : "molecular_simulations.png",
-      "thumb_image" : "molecular_simulations.png",
+      "main_image" : "projects/project4/main.jpg",
+      "thumb_image" : "projects/project4/cover.jpg",
     },
     "deep-learning-in-music":
     {
       "title" : "Deep Learning in Music",
       "markdown" : "projects/project5/text.md",
-      "cover_image" : "deep_learning_for_sequential_data.png",
-      "thumb_image" : "deep_learning_for_sequential_data.png",
+      "main_image" : "projects/project5/main.png",
+      "thumb_image" : "projects/project5/cover.jpg",
     }
   },
     "contact" : {
