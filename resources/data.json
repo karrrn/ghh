@@ -24,14 +24,14 @@
     "dissolved-carbon-dioxide-sensor":
     {
       "title" : "Dissolved Carbon Dioxide Sensor",
-      "markdown" : "projects/project4/txt.md",
+      "markdown" : "projects/project4/text.md",
       "main_image" : "projects/project4/main.jpg",
       "thumb_image" : "projects/project4/cover.jpg",
     },
     "deep-learning-in-music":
     {
       "title" : "Deep Learning in Music",
-      "markdown" : "projects/project5/text.md",
+      "markdown" : "projects/project5/txt.md",
       "main_image" : "projects/project5/main.png",
       "thumb_image" : "projects/project5/cover.jpg",
     }
