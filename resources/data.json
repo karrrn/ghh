@@ -1,37 +1,37 @@
 {
   "projects" : {
-    "lumiere":
+    "root-system":
     {
-      "title" : "lumiere",
+      "title" : "Root System",
       "markdown" : "projects/project1/text.md",
       "main_image" : "projects/project1/main.png",
       "thumb_image" : "projects/project1/cover.jpg",
     },
-    "haunted-farm":
+    "deep-learning-in-music":
     {
-      "title" : "Haunted Farm",
+      "title" : "Deep Learning in Music",
       "markdown" : "projects/project2/text.md",
       "main_image" : "projects/project2/main.png",
       "thumb_image" : "projects/project2/cover.jpg",
     },
-    "root-system":
+    "lumiere":
     {
-      "title" : "Root System",
+      "title" : "Lumi&egrave;re",
       "markdown" : "projects/project3/text.md",
       "main_image" : "projects/project3/main.jpg",
       "thumb_image" : "projects/project3/cover.jpg",
     },
-    "dissolved-carbon-dioxide-sensor":
+    "haunted-farm":
     {
-      "title" : "Dissolved Carbon Dioxide Sensor",
+      "title" : "Haunted Farm",
       "markdown" : "projects/project4/text.md",
-      "main_image" : "projects/project4/main.jpg",
+      "main_image" : "projects/project4/main.png",
       "thumb_image" : "projects/project4/cover.jpg",
     },
-    "deep-learning-in-music":
+   "dissolved-carbon-dioxide-sensor":
     {
-      "title" : "Deep Learning in Music",
-      "markdown" : "projects/project5/txt.md",
+      "title" : "Dissolved Carbon Dioxide Sensor",
+      "markdown" : "projects/project5/text.md",
       "main_image" : "projects/project5/main.png",
       "thumb_image" : "projects/project5/cover.jpg",
     }
