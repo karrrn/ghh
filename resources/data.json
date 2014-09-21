@@ -3,47 +3,35 @@
     },
 
   "projects" : {
-    "lumiere":
+    "rootsystem":
     {
-      "title" : "lumiere",
+      "title" : "rootsystem",
       "markdown" : "projects/project1/text.md",
-      "image_name" : "LaserDistortion.jpg",
+      "image_name" : "cover.jpg",
     },
-    "project2":
+    "deep learning in music":
     {
-      "title" : "project2",
-      "markdown" : "",
-      "image_name" : "deep_learning_for_sequential_data.png",
+      "title" : "deeplearning in music",
+      "markdown" : "projects/project2/text.md",
+      "image_name" : "cover.jpg",
     },
-    "project3":
+    "Lumi&egrave;re":
     {
-      "title" : "project3",
-      "markdown" : "",
-      "image_name" : "LaserDistortion2.png",
+      "title" : "Lumi&egrave;re",
+      "markdown" : "projects/project3/text.md",
+      "image_name" : "cover.jpg",
     },
-    "project4":
+    "Haunted Farm":
     {
-      "title" : "project4",
-      "markdown" : "",
-      "image_name" : "molecular_simulations.png",
+      "title" : "Haunted Farm",
+      "markdown" : "projects/project4/text.md",
+      "image_name" : "cover.jpg",
     },
-    "project5":
+   "dissolved carbon dioxide sensor":
     {
-      "title" : "project5",
-      "markdown" : "",
-      "image_name" : "toy_hacking_placeholder.jpg",
-    },
-    "project6":
-     {
-      "title" : "project6",
-      "markdown" : "",
-      "image_name" : "data_driven_sensors_for_hydroponics_applications.jpg",
-    },
-    "project7":
-    {
-      "title" : "project7",
-      "markdown" : "",
-      "image_name" : "water_carbon_dioxide_sensor.png",
+      "title" : "Dissolved Carbon Dioxide Sensor",
+      "markdown" : "projects/project5/text.md",
+      "image_name" : "cover.jpg",
     },
   },
   "publications" : {
