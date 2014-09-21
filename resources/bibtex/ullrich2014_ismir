@@ -1,0 +1,7 @@
+@InProceedings{ullrich2014_ismir,
+	author = {Karen Ullrich and Jan Schl{\"u}ter and Thomas Grill},
+	title = {{Boundary Detection in Music Structure Analysis using Convolutional Neural Networks}},
+	year = {2014},
+	booktitle = {Proceedings of the 15th International Society for Music Information Retrieval Conference (ISMIR 2014)},
+	address = {Taipei, Taiwan}
+}
