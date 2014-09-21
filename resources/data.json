@@ -1,9 +1,37 @@
 {
   "projects" : {
-    "lumiere":
+    "rootsystem":
     {
-      "title" : "lumiere",
+      "title" : "rootsystem",
       "markdown" : "projects/project1/text.md",
+<<<<<<< HEAD
+      "image_name" : "cover.jpg",
+    },
+    "deep learning in music":
+    {
+      "title" : "deeplearning in music",
+      "markdown" : "projects/project2/text.md",
+      "image_name" : "cover.jpg",
+    },
+    "Lumi&egrave;re":
+    {
+      "title" : "Lumi&egrave;re",
+      "markdown" : "projects/project3/text.md",
+      "image_name" : "cover.jpg",
+    },
+    "Haunted Farm":
+    {
+      "title" : "Haunted Farm",
+      "markdown" : "projects/project4/text.md",
+      "image_name" : "cover.jpg",
+    },
+   "dissolved carbon dioxide sensor":
+    {
+      "title" : "Dissolved Carbon Dioxide Sensor",
+      "markdown" : "projects/project5/text.md",
+      "image_name" : "cover.jpg",
+    },
+=======
       "main_image" : "projects/project1/main.png",
       "thumb_image" : "projects/project1/cover.jpg",
     },
@@ -35,6 +63,7 @@
       "main_image" : "projects/project5/main.png",
       "thumb_image" : "projects/project5/cover.jpg",
     }
+>>>>>>> cfcf505d656f62be9be3e75cef1a40310c5f9d38
   },
     "contact" : {
       "name" : "Karen Ullrich",
