@@ -7,7 +7,7 @@
                  [markdown-clj "0.9.47"]
                  [ring/ring-jetty-adapter "1.3.1"]
                  [prone "0.6.0"]]
-  :plugins [[lein-ring "0.8.11"]]
+  :plugins [[lein-ring "0.7.0"]]
   :ring {:handler k-server.core/handler
          :resource-path ["resources"]
          :auto-reload? true
