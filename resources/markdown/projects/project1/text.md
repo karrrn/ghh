@@ -6,13 +6,12 @@ have embraced and is also finding its way into the
 urban farming movement. Not only does it save 90% of the water traditional farming uses, the crops produce much higher yields.
 
 The problem with hydroponics is the research and knowledge required to get started. There are quite a
-few variables involved that influence your results. This is a pity, since it can be the most hands off way of getting fresh fruit and vegetables. This stems from the fact the environment can be closely
-controlled and monitored.
+few variables involved that influence your results. This is a pity, since it can be the most hands off way of getting fresh fruit and vegetables. This stems from the fact the environment can be closely controlled and monitored.
 
-The rootsystem project  wants to make hydroponics culture accessible to a lager community and therefore we develop tools and kits for easy success.
+The rootsystem project wants to make hydroponics culture accessible to a larger community and therefore we develop tools and kits for easy success.
 
-In the scope of this project I am developing a data driven sensor. The sensor consists of low cost components. Key to it is a complex machine learning based analyse of  gathered and labeled data. Unfortunately, we have to create a labeled data base our self which is very time consuming. 
+In the scope of this project I am developing a data driven sensor. The sensor consists of low cost components. Key to it is a complex machine learning based analyse of  gathered and labeled data. Unfortunately, we have to create a labeled data base our self which is very time consuming.
 
-Other devices will follow soon. Ideas and paricipation are welcome. See out git repository for more code and information. 
+Other devices will follow soon. Ideas and paricipation are welcome. See our git repository for more code and information.
 
-Project with Louis Smit, started in 20142014
+Project with Louis Smit, started in 2014
