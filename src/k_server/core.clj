@@ -116,7 +116,7 @@
 (defresource bibtex [req]
   ;; project resource
   :available-media-types ["text"]
-  :handle-ok (fn [_] (apply str (slurp (str "resources/bibtex/" (get-in req [:route-params :id]))))))
+  :handle-ok (fn [_] (apply str (slurp (clojure.java.io/resource (str "bibtex/" (get-in req [:route-params :id])))))))
 
 (defroutes app
   (ANY "/" [] main)
