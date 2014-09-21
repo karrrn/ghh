@@ -67,7 +67,7 @@ module.exports = function(grunt) {
         options: {},
         files: [{
           src: ['resources/markdown/CV.md'],
-          dest: 'src/CV.html'
+          dest: 'src/templates/CV.html'
         }]
       }
     }

@@ -8,7 +8,8 @@
             [hiccup.core :as hiccup]
             [clojure.data.json :as json]
             [markdown.core :as md]
-            [net.cgrand.reload :as reload]))
+            [net.cgrand.reload :as reload]
+            [prone.middleware :as prone]))
 
 
 (def sections ["about", "projects", "publications", "cv", "contact"])
@@ -76,6 +77,9 @@
          ]
          )))
 
+(html/defsnippet cv-template "templates/CV.html" [html/root]
+  [])
+
 (html/deftemplate base-template "templates/index.html"
   []
   [:ul.navbar-nav] (html/html-content (get-nav sections))
@@ -84,9 +88,9 @@
   [:#about :.content] (html/html-content (get-md "about.md"))
   [:#projects :.content] (html/html-content (project-thumbs (:projects data)))
   [:#projects :.content] (html/prepend
-                          (html/html (hiccup/html [:h1 "PROJECTS"])))
+                          (html/html [:h1 "PROJECTS"]))
   [:#publications :.content] (html/html-content (get-md "publications.md"))
-  [:#cv :.content] (html/html-content (get-md "CV.md"))
+  [:#cv :.content] (html/content (cv-template))
   [:#contact] (html/html-content (get-contact (:contact data))))
 
 (html/deftemplate project-template "templates/index.html"
@@ -112,16 +116,17 @@
 (defresource bibtex [req]
   ;; project resource
   :available-media-types ["text"]
-  :handle-ok (fn [_] (apply str (slurp (clojure.java.io/resource "bibtex")))))
+  :handle-ok (fn [_] (apply str (slurp (str "bibtex/" (get-in req [:route-params :id]))))))
 
 (defroutes app
   (ANY "/" [] main)
   (ANY "/projects/:id" [req] project)
-  (ANY "/bibtex" [req] bibtex)
+  (ANY "/bibtex/:id" [req] bibtex)
   (route/resources "/"))
 
 (def handler
   (-> app
+      prone/wrap-exceptions
       (wrap-params)))
 
 (reload/auto-reload *ns*)

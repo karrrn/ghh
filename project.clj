@@ -5,7 +5,8 @@
 		             [ring/ring-core "1.2.1"]
                  [enlive "1.1.5"]
                  [markdown-clj "0.9.47"]
-                 [ring/ring-jetty-adapter "1.1.0"]]
+                 [ring/ring-jetty-adapter "1.1.0"]
+                 [prone "0.6.0"]]
   :plugins [[lein-ring "0.8.11"]]
   :ring {:handler k-server.core/handler
          :resource-path ["resources"]
