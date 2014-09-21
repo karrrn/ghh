@@ -2,7 +2,11 @@
 h1, h2, h3, h4 {
   font-family: 'economica';
 }
-
+a {
+  &:hover {
+    text-decoration: none;
+  }
+}
 @font-face {
         font-family: 'economica';
         src: url('/fonts/Economica_Std.ttf');
@@ -18,6 +22,7 @@ h1, h2, h3, h4 {
     a {
       font-family: 'economica';
       font-size: 22px;
+      padding-bottom: 5px;
     }
   }
 }
@@ -31,10 +36,9 @@ h1, h2, h3, h4 {
 #main{
   padding-top: 70px;
 }
-#intro {
+#about{
   margin-top: 30px;
   p {
-    max-width: 500px;
     margin: 5px;
     font-size: 20px;
   }
@@ -43,13 +47,13 @@ h1, h2, h3, h4 {
   .section-inner{
     height: 100%;
     margin-top: 60px;
-    background-color: white;//#f3f1e7
+    //background-color: white;//#f3f1e7
   }
 }
 body {
   position: relative;
-  background-color: #FFFFF6;
-  font-family: 'Fenix', serif;
+  //background-color: #FFFFFA;
+//  font-family: 'Fenix', serif;
   font-size: 16px;
 }
 
@@ -57,20 +61,26 @@ body {
 .project-thumb {
   position: relative;
   float: left;
+  width: 150px;
+  margin: 10px;
   img {
   height: 150px;
   }
   .title {
     display: none;
-    font-size: 24px;
     top: 40px;
     left: 20px;
     position: absolute;
+    font-family: 'economica';
+    font-size: 24px;
+    color: white;
   }
   &:hover {
     img {
     filter: grayscale(100%) blur(1px);
+    filter: brightness(0.5);
     -webkit-filter: grayscale(100%) blur(1px);
+    -webkit-filter: brightness(0.5) blur(1px);
     -moz-filter: grayscale(100%) blur(1px);
     -ms-filter: grayscale(100%) blur(1px);
     -o-filter: grayscale(100%) blur(1px);
@@ -82,8 +92,41 @@ body {
   }
 }
 
+.project {
+  .cover{
+    width: 250px;
+    float: right;
+    margin-top: 50px;
+  }
+}
+
+.lumiere .cover {
+    width: 100%;
+     float: none;
+    margin-top: 0;
+}
+
+
+.table th, .table td {
+     border: none !important;
+ }
+
 .contact {
-  width: 200px;
+
+  margin-top: 60px;
   float: left;
-  margin-right: 30px;
+  margin-bottom: 100px;
+  .info {
+    width: 200px;
+    float: left;
+    padding-bottom: 20px;
+  }
+
+}
+
+.profile-pic {
+  right: 10%;
+  top: 80px;
+  width: 200px;
+  position: absolute;
 }

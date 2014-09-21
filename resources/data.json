@@ -1,12 +1,10 @@
-{ "about" : {
-    "markdown": "about.md"
-    },
-
+{
   "projects" : {
     "rootsystem":
     {
       "title" : "rootsystem",
       "markdown" : "projects/project1/text.md",
+<<<<<<< HEAD
       "image_name" : "cover.jpg",
     },
     "deep learning in music":
@@ -33,14 +31,40 @@
       "markdown" : "projects/project5/text.md",
       "image_name" : "cover.jpg",
     },
+=======
+      "main_image" : "projects/project1/main.png",
+      "thumb_image" : "projects/project1/cover.jpg",
+    },
+    "haunted-farm":
+    {
+      "title" : "Haunted Farm",
+      "markdown" : "projects/project2/text.md",
+      "main_image" : "projects/project2/main.png",
+      "thumb_image" : "projects/project2/cover.jpg",
+    },
+    "root-system":
+    {
+      "title" : "Root System",
+      "markdown" : "projects/project3/text.md",
+      "main_image" : "projects/project3/main.jpg",
+      "thumb_image" : "projects/project3/cover.jpg",
+    },
+    "dissolved-carbon-dioxide-sensor":
+    {
+      "title" : "Dissolved Carbon Dioxide Sensor",
+      "markdown" : "projects/project4/text.md",
+      "main_image" : "projects/project4/main.jpg",
+      "thumb_image" : "projects/project4/cover.jpg",
+    },
+    "deep-learning-in-music":
+    {
+      "title" : "Deep Learning in Music",
+      "markdown" : "projects/project5/txt.md",
+      "main_image" : "projects/project5/main.png",
+      "thumb_image" : "projects/project5/cover.jpg",
+    }
+>>>>>>> cfcf505d656f62be9be3e75cef1a40310c5f9d38
   },
-  "publications" : {
-    "markdown": "publications.md"
-    },
-  "curriculum vitae" : {
-    "markdown": "CV."
-    },
-
     "contact" : {
       "name" : "Karen Ullrich",
       "address" : {
