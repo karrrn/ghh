@@ -11,7 +11,7 @@
 ### Work Experience
 
 | Feb 2011 - Apr 2011 	|| Research Intern  |
-| ------------- || :----------- |
+| ------------- |---| :----------- |
 |  			|  | Solarion AG, Ostende 5, 04288 Leipzig (Germany) |
 |			| | Developed of analysis software for thin-film photo-voltaic wavers.|
 | **Apr 2011 - Jun 2012** 	|| **Student Assistant**  |
