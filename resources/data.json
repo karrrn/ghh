@@ -2,14 +2,14 @@
   "projects" : {
     "root-system":
     {
-      "title" : "Root System",
+      "title" : "Rootsystem",
       "markdown" : "projects/project1/text.md",
       "main_image" : "projects/project1/main.png",
       "thumb_image" : "projects/project1/cover.jpg",
     },
     "deep-learning-in-music":
     {
-      "title" : "Deep Learning in Music",
+      "title" : "Deep learning in music",
       "markdown" : "projects/project2/text.md",
       "main_image" : "projects/project2/main.png",
       "thumb_image" : "projects/project2/cover.jpg",
@@ -23,20 +23,20 @@
     },
     "haunted-farm":
     {
-      "title" : "Haunted Farm",
+      "title" : "Haunted farm",
       "markdown" : "projects/project4/text.md",
       "main_image" : "projects/project4/main.jpg",
       "thumb_image" : "projects/project4/cover.jpg",
     },
    "dissolved-carbon-dioxide-sensor":
     {
-      "title" : "Dissolved Carbon Dioxide Sensor",
+      "title" : "Dissolved carbon dioxide sensor",
       "markdown" : "projects/project5/text.md",
       "main_image" : "projects/project5/main.png",
       "thumb_image" : "projects/project5/cover.jpg",
     }
   },
-    "contact" : {
+    "CONTACT" : {
       "name" : "Karen Ullrich",
       "address" : {
         "name": "OFAI",
