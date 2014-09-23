@@ -82,6 +82,6 @@ module.exports = function(grunt) {
   grunt.loadTasks('grunt-tasks');
 
   // Default task(s).
-  grunt.registerTask('build', ['customize-bootstrap', 'less', 'connect', 'watch']);
+  grunt.registerTask('build', ['customize-bootstrap', 'less', 'md2html', 'connect', 'watch']);
 
 };

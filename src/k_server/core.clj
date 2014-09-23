@@ -7,12 +7,13 @@
             [net.cgrand.enlive-html :as html]
             [hiccup.core :as hiccup]
             [clojure.data.json :as json]
+            [clojure.string :as string]
             [markdown.core :as md]
             [net.cgrand.reload :as reload]
             [prone.middleware :as prone]))
 
 
-(def sections ["about", "projects", "publications", "cv", "contact"])
+(def sections ["ABOUT", "PROJECTS", "PUBLICATIONS", "CV", "CONTACT"])
 (def data (json/read-str
            (slurp (clojure.java.io/resource "data.json")) :key-fn keyword))
 
@@ -50,7 +51,7 @@
   (map (fn [section]
          (hiccup/html
             [:li [:a
-               {:href (str "#" section)}
+               {:href (str "#" (string/lower-case section))}
                section]])) sections)))
 
 
@@ -58,7 +59,7 @@
       (let [{:keys [name address phone emails]} contact]
         (hiccup/html
         [:div {:class "contact"}
-         [:h1 "contact"]
+         [:h1 "CONTACT"]
          [:div {:class "info"}
           [:span name]
           [:address
@@ -84,7 +85,7 @@
   []
   [:ul.navbar-nav] (html/html-content (get-nav sections))
   [:#projects] (html/clone-for [section sections]
-                           [:.section](html/set-attr :id section))
+                           [:.section](html/set-attr :id (string/lower-case section)))
   [:#about :.content] (html/html-content (get-md "about.md"))
   [:#projects :.content] (html/html-content (project-thumbs (:projects data)))
   [:#projects :.content] (html/prepend
