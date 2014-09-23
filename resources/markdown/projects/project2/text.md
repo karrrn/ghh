@@ -5,4 +5,4 @@ that end, we developed a framework to perform supervised learning on a represent
 data set containing structural annotations.  After optimizing our models with respect to various hyper-parameters, we find them to outperform others considerably. 
 We visualized here  what one of our networks 'sees' when beeing provided by music.
 
-Study in collaboration with [Jan Schl&ouml;ter](http://www.ofai.at/~jan.schlueter/) and [Thomas Grill](http://grrrr.org/) @OFAI, Vienna, 2014
+Study in collaboration with [Jan Schl&uuml;ter](http://www.ofai.at/~jan.schlueter/) and [Thomas Grill](http://grrrr.org/) @OFAI, Vienna, 2014
