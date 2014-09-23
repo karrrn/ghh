@@ -1,38 +1,9 @@
 # PUBLICATIONS
 
-Karen Ullrich, Jan Schlüter, and Thomas Grill: Boundary Detection in Music Structure Analysis using Convolutional Neural Networks. In Proceedings of the 15th International Society for Music Information Retrieval Conference (ISMIR 2014), Taipei, Taiwan, 2014. ([pdf](http://www.ofai.at/~jan.schlueter/pubs/2014_ismir.pdf),[Bibtex](
+Karen Ullrich, Jan Schlüter, and Thomas Grill: Boundary Detection in Music Structure Analysis using Convolutional Neural Networks. In Proceedings of the 15th International Society for Music Information Retrieval Conference (ISMIR 2014), Taipei, Taiwan, 2014. ([pdf](publications/paper_ismir2014.pdf),[Bibtex](bibtex/ullrich2014_ismir))
 
-@InProceedings{ullrich2014_ismir,
-	author = {Karen Ullrich and Jan Schl{\"u}ter and Thomas Grill},
-	title = {{Boundary Detection in Music Structure Analysis using Convolutional Neural Networks}},
-	year = {2014},
-	booktitle = {Proceedings of the 15th International Society for Music Information Retrieval Conference (ISMIR 2014)},
-	address = {Taipei, Taiwan}
-}
-))
+Karen Ullrich: Feed-Forward Neural Networks for boundary detection in music structure Analysis, Master thesis.([pdf](publications/master_thesis.pdf),[Bibtex](bibtex/Ullrich_nn_201))
 
-Karen Ullrich: Feed-Forward Neural Networks for boundary detection in music structure Analysis, Master thesis.([pdf](http://www.ofai.at/~jan.schlueter/pubs/2014_ismir.pdf),[Bibtex](
-
-@MastersThesis{Ullrich_nn_2014,
-  Title                    = {Feed-Forward Neural Networks for boundary detection in music structure Analysis},
-  Author                   = {Karen Ullrich},
-  School                   = {University of Amsterdam \& OFAI},
-  Year                     = {2014}
-
-
-}
-))
-
-Karen Ullrich: Messuring dissolved carbon dioxide in over-saturated water with head-space method and electronic procedure, Bachelor thesis.([pdf](http://www.ofai.at/~jan.schlueter/pubs/2014_ismir.pdf),[Bibtex](
-
-@MastersThesis{Ullrich_carbondeioxidesensor_2012,
-  Title                    = {Measuring dissolved carbon dioxide in over-saturated water with head-space method and electronic procedure},
-  Author                   = {Karen Ullrich},
-  School                   = {University of Leipzig \& Helmholtz Center for Environmental Research},
-  Year                     = {2012}
-
-
-}
-))
+Karen Ullrich: Messuring dissolved carbon dioxide in over-saturated water with head-space method and electronic procedure, Bachelor thesis.([pdf](publications/bachelor_thesis2012.pdf),[Bibtex](bibtex/Ullrich_carbondeioxidesensor_201))
 
 

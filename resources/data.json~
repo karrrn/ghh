@@ -1,62 +1,50 @@
-{ "about":{
-     "markdown" : "about.md"
-     },
+{
   "projects" : {
+    "root-system":
+    {
+      "title" : "rootsystem",
+      "markdown" : "projects/project1/text.md",
+      "main_image" : "projects/project1/main.png",
+      "thumb_image" : "projects/project1/cover.jpg",
+    },
+    "deep-learning-in-music":
+    {
+      "title" : "Deep Learning in Music",
+      "markdown" : "projects/project2/text.md",
+      "main_image" : "projects/project2/main.png",
+      "thumb_image" : "projects/project2/cover.jpg",
+    },
     "lumiere":
     {
-      "title" : "lumiere",
-      "markdown" : "projects/project1/text.md",
-      "image_name" : "LaserDistortion.jpg",
+      "title" : "Lumi&egrave;re",
+      "markdown" : "projects/project3/text.md",
+      "main_image" : "projects/project3/main.jpg",
+      "thumb_image" : "projects/project3/cover.jpg",
     },
-    "project2":
+    "haunted-farm":
     {
-      "title" : "project2",
-      "markdown" : "",
-      "image_name" : "deep_learning_for_sequential_data.png",
+      "title" : "Haunted Farm",
+      "markdown" : "projects/project4/text.md",
+      "main_image" : "projects/project4/main.jpg",
+      "thumb_image" : "projects/project4/cover.jpg",
     },
-    "project3":
+   "dissolved-carbon-dioxide-sensor":
     {
-      "title" : "project3",
-      "markdown" : "",
-      "image_name" : "LaserDistortion2.png",
-    },
-    "project4":
-    {
-      "title" : "project4",
-      "markdown" : "",
-      "image_name" : "molecular_simulations.png",
-    },
-    "project5":
-    {
-      "title" : "project5",
-      "markdown" : "",
-      "image_name" : "toy_hacking_placeholder.jpg",
-    },
-    "project6":
-     {
-      "title" : "project6",
-      "markdown" : "",
-      "image_name" : "data_driven_sensors_for_hydroponics_applications.jpg",
-    },
-    "project7":
-    {
-      "title" : "project7",
-      "markdown" : "",
-      "image_name" : "water_carbon_dioxide_sensor.png",
-    },
-    "publications":{
-     "markdown" : "publications.md"
-     },
+      "title" : "Dissolved Carbon Dioxide Sensor",
+      "markdown" : "projects/project5/text.md",
+      "main_image" : "projects/project5/main.png",
+      "thumb_image" : "projects/project5/cover.jpg",
+    }
   },
-    "contact" : {
+    "CONTACT" : {
       "name" : "Karen Ullrich",
       "address" : {
         "name": "OFAI",
         "street": "Freyung 6/6",
         "postal": "A-1010 ",
         "city" : "Vienna, Austria"
-        }
-    "phone" : "+43 680 2321 469"
+        },
+    "phone" : "+43 680 2321 469",
     "emails" : ["karn.ullrich@gmail.com", "karen.ullrich@ofai.at"]
     }
 }
