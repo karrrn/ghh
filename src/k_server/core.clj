@@ -9,8 +9,7 @@
             [clojure.data.json :as json]
             [clojure.string :as string]
             [markdown.core :as md]
-            [net.cgrand.reload :as reload]
-            [prone.middleware :as prone]))
+            [net.cgrand.reload :as reload]))
 
 
 (def sections ["ABOUT", "PROJECTS", "PUBLICATIONS", "CV", "CONTACT"])
@@ -127,7 +126,6 @@
 
 (def handler
   (-> app
-      prone/wrap-exceptions
       (wrap-params)))
 
 (reload/auto-reload *ns*)
