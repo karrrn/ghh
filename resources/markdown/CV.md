@@ -1,6 +1,6 @@
 # CURRICULUM VITAE
 
-### Education and Training
+### Education and training
 | Sep 2012 - Sep 2014		|| Master of Science, Computational Science |
 | -----------------------  |---  | :------------------ |
 |  				|| University of Amsterdam, Faculty of Science, Amsterdam (Netherlands)|
@@ -8,7 +8,7 @@
 |  			        || Universität Leipzig, Fakultät für Physik und Geowissenschaften, Leipzig (Germany) |
 
 
-### Work Experience
+### Work experience
 
 | Nov 2013 - Sep 2014	|| Master intern  |
 | ------------- |---	| :----------- |

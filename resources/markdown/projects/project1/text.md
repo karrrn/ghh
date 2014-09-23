@@ -1,7 +1,6 @@
 ## Rootsystem
 
-Hydroponics is a way of growing plants that avoids utilizing soil and tailors the amount of nutrients a plant
-needs specifically to it. optimiert welche und vieviele nutrients pflanzen zugeführt werden..dabei vertichtet es auf soil
+Hydroponics is a modern way of farming that optimizes the supply of nutrients plants need specifically and thereby spares any soil. 
 This a much more efficient way of farming, embraced by many DIY enthusiasts
 and is also finding its way into the urban farming movement. 
 Not only does it save 90% of the water that traditional farming uses, but also the crops produce much higher yields.
