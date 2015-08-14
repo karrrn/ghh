@@ -37,7 +37,7 @@
 
 #### Programming languages
 
-* **Python** (Thenao, scikit-learn), Matlab, Mathematica, R
+* **Python** (Theano, scikit-learn), Lua (Torch),  Matlab, Mathematica, R
 
 * **C/C++** (Open MPI), Pascal, Fortran 
 
