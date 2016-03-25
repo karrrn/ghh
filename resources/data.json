@@ -1,5 +1,12 @@
 {
   "projects" : {
+    "goethe-in-my-mind":
+    {
+      "title" : "Goethe in my Mind",
+      "markdown" : "projects/project6/text.md",
+      "main_image" : "projects/project6/main.png",
+      "thumb_image" : "projects/project6/cover.jpg",
+    },
     "root-system":
     {
       "title" : "Rootsystem",
@@ -39,13 +46,12 @@
     "contact" : {
       "name" : "Karen Ullrich",
       "address" : {
-        "name": "OFAI",
-        "street": "Freyung 6/6",
-        "postal": "A-1010 ",
-        "city" : "Vienna, Austria"
+        "name": "University of Amsterdam",
+        "street": "Science Park 904",
+        "postal": "1098 XM Amsterdam ",
+        "city" : "Room C3.260"
         },
-    "phone" : "+43 680 2321 469",
-    "emails" : ["karn.ullrich@gmail.com", "karen.ullrich@ofai.at"]
+    "emails" : ["karn [punkt] ullrich [ät] gmail [punkt] com"]
     }
 }
 

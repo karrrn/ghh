@@ -1,19 +1,23 @@
 # CURRICULUM VITAE
 
 ### Education and training
-| Sep 2012 - Sep 2014		|| Master of Science, Computational Science |
+| Nov 2015 - 		|| PhD Machine Learning, Statistical Deep Learning (SV Max Welling) |
 | -----------------------  |---  | :------------------ |
+|  				|| University of Amsterdam, Faculty of Science, Amsterdam (Netherlands)|
+| **Sep 2012 - Sep 2014**		|| **Master of Science, Computational Science** |
 |  				|| University of Amsterdam, Faculty of Science, Amsterdam (Netherlands)|
 | **Oct 2009 - Jun 2012** 	|| **Bachelor of Science, Physik (Physics)**  |
 |  			        || Universität Leipzig, Fakultät für Physik und Geowissenschaften, Leipzig (Germany) |
 
 
 ### Work experience
-
-| Nov 2013 - Sep 2014	|| Master intern  |
+| Jul 2015 - Sep 2015	|| Scientific Researcher  |
 | ------------- |---	| :----------- |
 |  			|| Austrian Research Institute for Artificial Intelligence (OFAI), Freyung 6/6,  Vienna (Austria) |
-|			|| First steps in deep learning with an application in music segmentation (for more information see publications and projects).|
+|			|| Investigation of the effects of the curse of dimensionality in musical data.|
+| **Nov 2013 - Jun 2014**	|| **Master intern**  |
+|  			|| Austrian Research Institute for Artificial Intelligence (OFAI), Freyung 6/6,  Vienna (Austria) |
+|			|| Implementation of a deep neural network for music information retrieval (publication available)|
 | **Jul 2013 - Sep 2013 **	|| ** Research assistant** |
 |  			|| Uniklinikum Leipzig in collab. with the Max Planck Institute for Human, Cognitive and Brain Sciences, Leipzig (Germany) |
 |			|| Analysis of high-Tesla diffusion MRI data, location and evaluation of clusters.|
