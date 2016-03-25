@@ -70,8 +70,8 @@
            [:span (:city address)]]
           [:span phone]
           [:br]
-           (let [email (emails 1)]
-            [:a {:href (str "mailto:" email)} email])
+           (let [email (emails 0)]
+            [:span email])
           ]
         [:img {:src "/img/contact.jpg" :class "profile-pic"}]
          ]
